@@ -4,7 +4,7 @@
 void main()
 {
 clrscr();
-int a[100],item,pos,i,n,ch,ans;
+int a[100],item,pos,i,n,choice,ans;
 cout<<"enter the size of array \n";
 cin>>n;
 cout<<"enter the elements of the array \n ";
@@ -19,8 +19,8 @@ cout<<"press 4 for insertion in array \n";
 cout<<"press 5 for deletion in array \n";
 label:
 cout<<"enter your choice from 1 to 5 \n";
-cin>>ch;
-switch(ch)
+cin>>choice;
+switch(choice)
 {
 case 1:
 for(i=0;i<n;i++)
